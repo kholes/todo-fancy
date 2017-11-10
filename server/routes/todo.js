@@ -1,0 +1,11 @@
+const express = require('express')
+const router = express.Router()
+const controller = require('../controllers/todo')
+router.get('/', controller.findAll)
+router.get('/:id', controller.findOne)
+router.post('/', controller.create)
+router.put('/:id', controller.update)
+router.put('/status/:id/:value', controller.setStatus)
+router.delete('/:id', controller.delete)
+router.get('/user/:id', controller.findBy)
+module.exports = router

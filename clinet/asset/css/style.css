@@ -1,0 +1,309 @@
+html,body{
+	width:100%; 
+    height:100%;
+    margin: 0;
+    padding: 0;
+	background: #fff;
+}
+*{
+	margin:0;
+	text-decoration:none;
+	font-family:'Terminal', sans-serif;
+}
+ul li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a {
+    cursor: pointer;
+}
+a:hover {
+    text-decoration: none;      
+}
+.c {
+    clear: both;
+}
+.c5 {
+    height: 5px;
+}
+.c10 {
+    height: 10px;
+}
+.container {
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+}
+.table-content {
+    height: 300px;
+    overflow: auto;
+}
+.header {
+    width: 100%;
+    height: 70px;
+    background: #fff;
+    margin: auto;
+    text-align: center;
+}
+.header h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.login-content {
+    height: 100%;
+    position: relative;
+}
+.panel-login {
+    float: right;
+}
+#logout {
+    font-size: 14px;
+    float: right;
+}
+#fLogin {
+    display: block;
+    width:500px;
+    height: 300px;
+    background: #ccc;
+    margin: auto;
+}
+#fLogin .btn-success {
+    width: 100%;
+    border-radius:0px;
+    position: absolute;
+}
+.media {
+    background: #436c7c;
+    border-radius: 10px;
+    padding: 10px;
+    height: 150px;
+}
+.media-body p {
+    font-size: 22px;
+}
+.media-right i {
+    font-size: 26px;
+    margin-right: 100px;
+}
+.tombol {
+    border: none;
+    background: none;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 20px;
+    color: #7dc0d1;
+    cursor: pointer;
+}
+.tombol:hover {
+    color: #3a7f91;
+}
+.tombol:visited {
+    border: none;
+}
+.dropdown-menu {
+    z-index: 999;
+}
+.header i {
+    font-size: 32px;
+    color: #0c96d6;
+    cursor: pointer;
+}
+.sidebar {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+.sidebar h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;    
+}
+.sidebar ul {
+    margin: 0; 
+    padding: 0;
+    list-style: none;
+}
+.sidebar ul li {
+    margin-left: 20px;
+    width: 100%;
+    padding: 5px 0;
+}
+.sidebar ul li a {
+    font-size: 16px;
+    color: #333;
+    letter-spacing: 1px;
+}
+.content {
+    min-height: 300px;
+}
+.footer {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    bottom: 0;
+    background: #ccc;
+    position: fixed;
+}
+.footer p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.modal.modal-alert .modal-dialog .modal-content {
+    border-radius: 0px;
+    padding: 0;
+}
+.modal.modal-alert .modal-dialog .modal-content .modal-header {
+    padding: 9px 15px;
+    border-bottom: 1px solid #eee;
+    background-color: lightslategray;
+}
+.modal.modal-alert .modal-dialog .modal-content .modal-header i {
+    color:rgb(204, 218, 223);
+    font-size: 22px;
+}
+.modal.modal-alert .modal-title {
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase; 
+}
+.modal.modal-alert .btn {
+    color: white;
+    letter-spacing: 1px;
+}
+.modal.modal-alert .btn-default {
+    font-weight: bold; 
+    background: lightslategray;
+}
+.modal.modal-alert .btn-edit {
+    background: rgb(83, 226, 95);
+}
+.modal.modal-alert .btn-edit:hover {
+    background: rgb(119, 228, 128);
+}
+.modal.modal-alert .btn-delete {
+    background: rgb(245, 96, 96);
+}
+.modal.modal-alert .btn-delete:hover {
+    background: rgb(247, 122, 122);    
+}
+.modal.modal-alert .btn i {
+    font-size: 20px;
+}
+.modal.modal-alert .modal-dialog .modal-content .modal-body {
+padding: 10px;
+}
+.no {
+    width: 20px;
+}
+.modal.modal-alert .modal-dialog .modal-content .modal-body input,select {
+    border-top-left-radius: none;
+    letter-spacing: 1px;
+}
+.modal.modal-alert .table th {
+    background: rgb(202, 203, 206);
+    padding: 10px 20px;
+    color: rgb(103, 105, 121);
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.modal.modal-alert .table td {
+    border-bottom: 1px solid lightgray;
+    padding: 10px 20px;
+    color: rgb(103, 105, 121);
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.modal.modal-alert .modal-dialog .modal-content .modal-footer {
+    padding-top: 15px;
+}
+@media only screen and (max-width : 425px) {
+    .right-menu {
+        position: fixed;
+        top: 0;
+        height: 50px;
+        width: 100%;
+        z-index: 99;
+    }
+    .c50 {
+        clear: both;
+                height: 55px;
+                visibility: visible;
+            }
+        }
+        /* Small Devices, Tablets */
+        @media only screen and (min-width : 768px) {
+            .right-menu {
+                position: fixed;
+                top: 0;
+                height: 50px;
+                width: 100%;
+                z-index: 99;
+            }
+            .c50 {
+                clear: both;
+                height: 55px;
+                visibility: visible;
+            }
+        }
+    
+        /* Medium Devices, Desktops */
+        @media only screen and (min-width : 992px) {
+            .right-menu {
+                position: fixed;
+                top: 0;
+                right: 0;
+                height: 100vh;
+                width: 100px;
+                z-index: 99;
+            }
+            .c50 {
+                clear: both;
+                height: 0px;
+                visibility: hidden;
+            }
+    
+        }
+    
+        /* Large Devices, Wide Screens */
+        @media only screen and (min-width : 1200px) {
+    
+        }
+    
+        /*==========  Non-Mobile First Method  ==========*/
+    
+        /* Large Devices, Wide Screens */
+        @media only screen and (max-width : 1200px) {
+    
+        }
+    
+        /* Medium Devices, Desktops */
+        @media only screen and (max-width : 992px) {
+    
+        }
+    
+        /* Small Devices, Tablets */
+        @media only screen and (max-width : 768px) {
+    
+        }
+    
+        /* Extra Small Devices, Phones */ 
+        @media only screen and (max-width : 480px) {
+    
+        }
+    
+        /* Custom, iPhone Retina */ 
+        @media only screen and (max-width : 320px) {
+    
+        }
+    
